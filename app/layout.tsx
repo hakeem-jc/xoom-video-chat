@@ -20,8 +20,8 @@ export default function RootLayout({
       <ClerkProvider 
         appearance={{
           layout: {
-            logoImageUrl: '/icons/yoom-logo.svg',
-            socialButtonsVariant: 'iconButton'
+            socialButtonsVariant: 'iconButton',
+            logoPlacement: 'none'
           },
           variables: {
             colorText: '#fff',
