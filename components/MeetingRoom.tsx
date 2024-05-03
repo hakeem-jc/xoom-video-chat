@@ -77,6 +77,7 @@ const MeetingRoom = () => {
             {['Grid', 'Speaker-Left', 'Speaker-Right'].map((item, index) => (
               <div key={index}>
                 <DropdownMenuItem
+                  className="cursor-pointer"
                   onClick={() =>
                     setLayout(item.toLowerCase() as CallLayoutType)
                   }
