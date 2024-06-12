@@ -1,4 +1,4 @@
-import CallList from '@/components/CallList';
+import CallList from "@/components/CallList";
 
 const Recordings = () => {
   return (
@@ -7,7 +7,7 @@ const Recordings = () => {
 
       <CallList type="recordings" />
     </section>
-  )
-}
+  );
+};
 
 export default Recordings;
