@@ -95,6 +95,7 @@ const MeetingTypeList = () => {
             onClose={() => setMeetingState(undefined)}
             title="Start an Instant Meeting"
             className="text-center"
+            buttonText="Start Meeting"
             handleClick={createMeeting}
         />
     </section>
