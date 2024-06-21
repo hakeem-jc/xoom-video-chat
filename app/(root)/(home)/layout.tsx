@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import React, { ReactNode } from 'react';
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
+import LogRocket from 'logrocket';
+LogRocket.init('uwhnan/xoom-video-chat');
 
 export const metadata: Metadata = {
   title: "XOOM",
